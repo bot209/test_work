@@ -42,3 +42,4 @@
 5. Архивируем нашу папку с помощью командлеты Compress-Archive
 
        Compress-Archive -LiteralPath 'C:\test_archive_file' -DestinationPath 'C:\test_archive_file.zip'
+6. Проверяем наличие архивного файла
