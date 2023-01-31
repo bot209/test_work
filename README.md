@@ -33,7 +33,7 @@
 4. Создаем файлы указав количество их количество -le 800, также указываем размер наших файлов в Kb (120Kb)
  
        $file = "file.txt"
-       for ($i=1; $i -le 100; $i++) {
+       for ($i=1; $i -le 800; $i++) {
        $array = New-Object -TypeName Byte[] -ArgumentList 120kb
        $object = New-Object -TypeName System.Random
        $object.NextBytes($array)
