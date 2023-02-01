@@ -32,7 +32,7 @@
        New-Item -Path "C:\" -Name "test_archive_file" -ItemType "directory"
        Set-Location -Path C:\test_archive_file
         
-4. Создаем файлы указав количество их количество -le 800, также указываем размер наших файлов в Kb (120Kb)
+4. Создаем файлы указав их количество -le 800, также указываем размер наших файлов в Kb (120Kb)
  
        $file = "file.txt"
        for ($i=1; $i -le 800; $i++) {
